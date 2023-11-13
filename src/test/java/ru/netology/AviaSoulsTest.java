@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class AviaSoulsTest {
     TicketTimeComparator timeComparator = new TicketTimeComparator();
-    Ticket ticket = new Ticket("Москва", "Краснодар", 100, 16, 20);  //4ч
+    Ticket ticket = new Ticket("Москва", "Краснодар", 100, 16, 20);  //4ч - время полета для удобства
     Ticket ticket2 = new Ticket("Москва", "Краснодар", 200, 17, 21);  //4ч
     Ticket ticket3 = new Ticket("Москва", "Краснодар", 50, 16, 22);   //6ч
     Ticket ticket4 = new Ticket("Москва", "Сочи", 400, 16, 19);   //3
